@@ -1,0 +1,71 @@
+@media(min-width:739px) and (max-width:1023px){
+    .tour-ticket .tour-ticket-item{
+        width: 32%;
+    }
+
+}
+
+@media(max-width:1023px){
+    #contact .detail{
+        line-height: 2;
+    }
+}
+
+@media(max-width:739px){
+    #nav{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav .sub-nav{
+        position: initial; 
+        background-color: #333;
+    }
+    #nav .sub-nav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #content .team-section{
+        flex-direction: column;
+    }
+    #content .team-section-item{
+        width: 100%;
+    }
+    #content .team-section-item .name{
+        margin: 15px 0;
+    }
+    #tour .tour-ticket{
+        flex-direction: column;
+    }
+    #tour .tour-ticket-item {
+        margin-bottom: 16px;
+        width: 100%;
+    }
+    #contact .detail{
+        margin-bottom: 32px;
+    }
+
+    #contact .flex{
+        flex-direction: column;
+    }
+    #contact .email-form{
+        margin: 8px 0 0 0;
+    }
+    .s-full-width{
+        width: 100% !important;
+    }
+}
