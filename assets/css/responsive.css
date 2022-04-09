@@ -18,7 +18,7 @@
     #nav > li:first-child{
         display: inline-block;
     }
-    #nav > li{
+    #nav >li{
         display: block;
     }
     #nav .sub-nav{
